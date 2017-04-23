@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "muyong <38197125@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
