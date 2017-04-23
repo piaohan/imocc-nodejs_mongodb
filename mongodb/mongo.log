@@ -95,3 +95,14 @@
 2017-04-23T20:23:06.951+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:57031 #11 (2 connections now open)
 2017-04-23T20:23:06.957+0800 I NETWORK  [conn11] received client metadata from 127.0.0.1:57031 conn11: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
 2017-04-23T20:24:56.198+0800 I -        [conn11] end connection 127.0.0.1:57031 (2 connections now open)
+2017-04-23T20:26:46.921+0800 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2017-04-23T20:26:46.921+0800 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2017-04-23T20:26:46.921+0800 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2017-04-23T20:26:46.921+0800 I NETWORK  [signalProcessingThread] closing listening socket: 8
+2017-04-23T20:26:46.921+0800 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2017-04-23T20:26:46.923+0800 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2017-04-23T20:26:46.923+0800 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2017-04-23T20:26:46.924+0800 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2017-04-23T20:26:47.079+0800 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2017-04-23T20:26:47.079+0800 I CONTROL  [signalProcessingThread] now exiting
+2017-04-23T20:26:47.079+0800 I CONTROL  [signalProcessingThread] shutting down with code:0
