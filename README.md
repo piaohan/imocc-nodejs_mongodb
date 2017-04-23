@@ -6,5 +6,12 @@
 
 - v1.0 :未使用数据库时,采用假数据的方法
 - v2.0 :接入数据库后 模式和模型的 加入
-- v2.1 :对逻辑层的
 
+> 使用方法
+
+```
+cd 项目路径
+npm install
+bower install
+mongod --config conf/mongod.conf 
+```

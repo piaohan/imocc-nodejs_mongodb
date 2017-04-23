@@ -1,0 +1,97 @@
+2017-04-23T18:59:11.844+0800 I CONTROL  [initandlisten] MongoDB starting : pid=56527 port=27017 dbpath=mongodb 64-bit host=bogon
+2017-04-23T18:59:11.845+0800 I CONTROL  [initandlisten] db version v3.4.3
+2017-04-23T18:59:11.845+0800 I CONTROL  [initandlisten] git version: f07437fb5a6cca07c10bafa78365456eb1d6d5e1
+2017-04-23T18:59:11.845+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2k  26 Jan 2017
+2017-04-23T18:59:11.845+0800 I CONTROL  [initandlisten] allocator: system
+2017-04-23T18:59:11.845+0800 I CONTROL  [initandlisten] modules: none
+2017-04-23T18:59:11.845+0800 I CONTROL  [initandlisten] build environment:
+2017-04-23T18:59:11.845+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-04-23T18:59:11.845+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-04-23T18:59:11.845+0800 I CONTROL  [initandlisten] options: { config: "conf/mongod.conf", net: { bindIp: "127.0.0.1" }, storage: { dbPath: "mongodb" }, systemLog: { destination: "file", logAppend: true, path: "mongodb/mongo.log" } }
+2017-04-23T18:59:11.847+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3584M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-04-23T18:59:12.449+0800 I CONTROL  [initandlisten] 
+2017-04-23T18:59:12.449+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-04-23T18:59:12.449+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-04-23T18:59:12.449+0800 I CONTROL  [initandlisten] 
+2017-04-23T18:59:12.449+0800 I CONTROL  [initandlisten] 
+2017-04-23T18:59:12.449+0800 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2017-04-23T18:59:12.652+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/diagnostic.data'
+2017-04-23T18:59:12.739+0800 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2017-04-23T18:59:12.739+0800 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2017-04-23T18:59:12.754+0800 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2017-04-23T18:59:12.755+0800 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2017-04-23T18:59:12.755+0800 I NETWORK  [thread1] waiting for connections on port 27017
+2017-04-23T18:59:35.471+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:64922 #1 (1 connection now open)
+2017-04-23T18:59:35.474+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:64922 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "16.5.0" } }
+2017-04-23T19:03:08.469+0800 I -        [conn1] end connection 127.0.0.1:64922 (1 connection now open)
+2017-04-23T19:04:48.082+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:65145 #2 (1 connection now open)
+2017-04-23T19:04:48.091+0800 I NETWORK  [conn2] received client metadata from 127.0.0.1:65145 conn2: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T19:06:47.712+0800 I -        [conn2] end connection 127.0.0.1:65145 (1 connection now open)
+2017-04-23T19:07:35.856+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:65266 #3 (1 connection now open)
+2017-04-23T19:07:35.865+0800 I NETWORK  [conn3] received client metadata from 127.0.0.1:65266 conn3: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T19:20:55.613+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49764 #4 (2 connections now open)
+2017-04-23T19:20:55.614+0800 I NETWORK  [conn4] received client metadata from 127.0.0.1:49764 conn4: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "16.5.0" } }
+2017-04-23T19:25:30.636+0800 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2017-04-23T19:25:30.638+0800 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2017-04-23T19:25:30.638+0800 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2017-04-23T19:25:30.638+0800 I NETWORK  [signalProcessingThread] closing listening socket: 8
+2017-04-23T19:25:30.638+0800 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2017-04-23T19:25:30.639+0800 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2017-04-23T19:25:30.639+0800 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2017-04-23T19:25:30.641+0800 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2017-04-23T19:25:30.794+0800 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2017-04-23T19:25:30.797+0800 I CONTROL  [signalProcessingThread] now exiting
+2017-04-23T19:25:30.797+0800 I CONTROL  [signalProcessingThread] shutting down with code:0
+2017-04-23T19:29:12.097+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten] MongoDB starting : pid=58221 port=27017 dbpath=mongodb 64-bit host=bogon
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten] db version v3.4.3
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten] git version: f07437fb5a6cca07c10bafa78365456eb1d6d5e1
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2k  26 Jan 2017
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten] allocator: system
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten] modules: none
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten] build environment:
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-04-23T19:29:12.128+0800 I CONTROL  [initandlisten] options: { config: "conf/mongod.conf", net: { bindIp: "127.0.0.1" }, storage: { dbPath: "mongodb" }, systemLog: { destination: "file", logAppend: true, path: "mongodb/mongo.log" } }
+2017-04-23T19:29:12.129+0800 I -        [initandlisten] Detected data files in mongodb created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-04-23T19:29:12.129+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3584M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-04-23T19:29:13.111+0800 I CONTROL  [initandlisten] 
+2017-04-23T19:29:13.111+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-04-23T19:29:13.111+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-04-23T19:29:13.111+0800 I CONTROL  [initandlisten] 
+2017-04-23T19:29:13.111+0800 I CONTROL  [initandlisten] 
+2017-04-23T19:29:13.111+0800 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2017-04-23T19:29:13.135+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/diagnostic.data'
+2017-04-23T19:29:13.135+0800 I NETWORK  [thread1] waiting for connections on port 27017
+2017-04-23T19:29:22.553+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49910 #1 (1 connection now open)
+2017-04-23T19:29:22.565+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:49910 conn1: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T19:34:29.913+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49984 #2 (2 connections now open)
+2017-04-23T19:34:29.913+0800 I NETWORK  [conn2] received client metadata from 127.0.0.1:49984 conn2: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "16.5.0" } }
+2017-04-23T19:36:50.364+0800 I -        [conn1] end connection 127.0.0.1:49910 (2 connections now open)
+2017-04-23T19:36:51.761+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:50039 #3 (2 connections now open)
+2017-04-23T19:36:51.770+0800 I NETWORK  [conn3] received client metadata from 127.0.0.1:50039 conn3: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T19:38:00.824+0800 I -        [conn3] end connection 127.0.0.1:50039 (2 connections now open)
+2017-04-23T19:38:02.506+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:50065 #4 (2 connections now open)
+2017-04-23T19:38:02.515+0800 I NETWORK  [conn4] received client metadata from 127.0.0.1:50065 conn4: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T19:47:10.434+0800 I -        [conn4] end connection 127.0.0.1:50065 (2 connections now open)
+2017-04-23T19:47:12.105+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:50374 #5 (2 connections now open)
+2017-04-23T19:47:12.114+0800 I NETWORK  [conn5] received client metadata from 127.0.0.1:50374 conn5: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T19:54:33.831+0800 I -        [conn5] end connection 127.0.0.1:50374 (2 connections now open)
+2017-04-23T19:54:35.584+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51426 #6 (2 connections now open)
+2017-04-23T19:54:35.591+0800 I NETWORK  [conn6] received client metadata from 127.0.0.1:51426 conn6: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T19:54:59.372+0800 I -        [conn6] end connection 127.0.0.1:51426 (2 connections now open)
+2017-04-23T19:58:26.314+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:52179 #7 (2 connections now open)
+2017-04-23T19:58:26.323+0800 I NETWORK  [conn7] received client metadata from 127.0.0.1:52179 conn7: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T20:09:45.097+0800 I -        [conn7] end connection 127.0.0.1:52179 (2 connections now open)
+2017-04-23T20:16:24.053+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:55291 #8 (2 connections now open)
+2017-04-23T20:16:24.060+0800 I NETWORK  [conn8] received client metadata from 127.0.0.1:55291 conn8: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T20:19:11.646+0800 I -        [conn8] end connection 127.0.0.1:55291 (2 connections now open)
+2017-04-23T20:19:12.965+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:56027 #9 (2 connections now open)
+2017-04-23T20:19:12.972+0800 I NETWORK  [conn9] received client metadata from 127.0.0.1:56027 conn9: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T20:19:39.123+0800 I -        [conn9] end connection 127.0.0.1:56027 (2 connections now open)
+2017-04-23T20:19:40.753+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:56149 #10 (2 connections now open)
+2017-04-23T20:19:40.761+0800 I NETWORK  [conn10] received client metadata from 127.0.0.1:56149 conn10: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T20:23:05.010+0800 I -        [conn10] end connection 127.0.0.1:56149 (2 connections now open)
+2017-04-23T20:23:06.951+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:57031 #11 (2 connections now open)
+2017-04-23T20:23:06.957+0800 I NETWORK  [conn11] received client metadata from 127.0.0.1:57031 conn11: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "16.5.0" }, platform: "Node.js v6.10.2, LE, mongodb-core: 2.1.9" }
+2017-04-23T20:24:56.198+0800 I -        [conn11] end connection 127.0.0.1:57031 (2 connections now open)

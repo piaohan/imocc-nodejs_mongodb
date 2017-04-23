@@ -4,6 +4,7 @@ block content
   .container
     .row
       from.form-horizontal(method="post",action="/admin/movie/new")
+        input(type="hidden",name="movice[_id]",value="#{movie._id}")
         .form-group
           label.col-sm-3.control-label(for="title") 电影名字
           .col-sm-9
@@ -12,6 +13,10 @@ block content
           label.col-sm-3.control-label(for="poster") 海报地址
           .col-sm-9
             input#poster.form-control(type="text",name="movie[poster]",value="#{movie.poster}")
+        .form-group
+          label.col-sm-3.control-label(for="flash") 电影地址
+          .col-sm-9
+            input#flash.form-control(type="text",name="movie[flash]",value="#{movie.flash}")
         .form-group
           label.col-sm-3.control-label(for="doctor") 导演
           .col-sm-9
@@ -34,4 +39,4 @@ block content
             Textarea#summary.form-control(type="text",name="movie[summary]") #{movie.summary}
         .form-group
           .col-sm-offset-3.col-sm-9
-            button.btn.btn-default.btn-success(type="submit") 录入
+            button.btn.btn-default(type="submit") 确定
